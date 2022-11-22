@@ -5,19 +5,17 @@ public class Main {
     public static void main(String[] args) {
     Scanner skaner = new Scanner(System.in);
 
-        System.out.println("Hello World");
+        System.out.println("KALKULATOR");
 
-        System.out.println("Podaj swoje imię");
-        String name = skaner.nextLine();
+        System.out.println("Podaj pierwsza liczbę");
+        int one = skaner.nextInt();
 
-        System.out.println("Podaj swoj wiek");
-        int age = skaner.nextInt();
+        System.out.println("Podaj druga liczbe");
+        int two = skaner.nextInt();
 
-        System.out.println("Czesc mam na imie " + name + " i mam " + age + " lat.");
+        int suma = one+two;
 
-
-
-
+        System.out.println("SUMA: " + (one+two));
 
     }
 }
